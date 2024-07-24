@@ -14,7 +14,7 @@ spec:
         app: guestbook
     spec:
       containers:
-      - image: flysky131/cicd_guestbook:1.0
+      - image: flysky131/cicd_guestbook:20240724172521_3
         name: sb-guestbook
         envFrom:
         - configMapRef:
